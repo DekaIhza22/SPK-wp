@@ -12,9 +12,9 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
+                background-color: #011a27;
+                color: #b3c100;
+                font-family: 'Proza', sans-serif;
                 font-weight: 200;
                 height: 100vh;
                 margin: 0;
@@ -49,7 +49,7 @@
             }
 
             .links > a {
-                color: #636b6f;
+                color: #4cb5f5;
                 padding: 0 25px;
                 font-size: 13px;
                 font-weight: 600;
@@ -81,18 +81,12 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    SPK Penyiar Radio Terbaik
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="https://github.com/DekaIhza22">GitHub</a>
+                    <a href="https://www.instagram.com/deka_i_m/" target="_blank">Instagram</a>
                 </div>
             </div>
         </div>

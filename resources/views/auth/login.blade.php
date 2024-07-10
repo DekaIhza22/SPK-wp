@@ -25,7 +25,7 @@
                                 @endif
 
                                 <form method="POST" action="{{ route('login') }}" class="user">
-                                    <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                                    @csrf
 
                                     <div class="form-group">
                                         <input type="email" class="form-control form-control-user" name="email" placeholder="{{ __('E-Mail Address') }}" value="{{ old('email') }}" required autofocus>
@@ -51,17 +51,12 @@
                                     <hr>
 
                                     <div class="form-group">
-                                        <button type="button" class="btn btn-github btn-user btn-block">
+                                        <a href="{{ route('login.google') }}" class="btn btn-google btn-user btn-block">
                                             <i class="fab fa-google fa-fw"></i> {{ __('Login with Google') }}
-                                        </button>
-                                    </div>
-
-                                    <div class="form-group">
-                                        <button type="button" class="btn btn-facebook btn-user btn-block">
-                                            <i class="fab fa-facebook-f fa-fw"></i> {{ __('Login with Facebook') }}
-                                        </button>
+                                        </a>
                                     </div>
                                 </form>
+                                
                                 @if (Route::has('password.request'))
                                     <div class="text-center">
                                         <a class="small" href="{{ route('password.request') }}">

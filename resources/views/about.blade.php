@@ -11,18 +11,21 @@
             <div class="card shadow mb-4">
 
                 <div class="card-profile-image mt-4">
-                    <img src="{{ asset('img/favicon.png') }}" class="rounded-circle" alt="user-image">
+                    <img src="{{ asset('img/favicon-32x32.png') }}" class="rounded-circle" alt="user-image">
                 </div>
 
                 <div class="card-body">
 
                     <div class="row">
                         <div class="col-lg-12">
-                            <h5 class="font-weight-bold">Laravel SB Admin 2</h5>
-                            <p>SB Admin 2 for Laravel.</p>
-                            <p>Recommend to install this preset on a project that you are starting from scratch, otherwise your project's design might break.</p>
-                            <p>If you found this project useful, then please consider giving it a ⭐</p>
-                            <a href="https://github.com/aleckrh/laravel-sb-admin-2" target="_blank" class="btn btn-github">
+                            <h5 class="font-weight-bold">Announcement</h5>
+                            <p>Basa Basi Author.</p>
+                            <p>Dalam era digital saat ini, persaingan di dunia penyiaran radio semakin ketat. 
+                                Setiap stasiun radio berlomba-lomba untuk menghadirkan konten yang menarik, kreatif, dan relevan bagi pendengarnya. 
+                                Salah satu aspek penting dalam mencapai hal ini adalah pemilihan penyiar radio yang tepat.
+                                Oleh karena itu, kami telah mengembangkan sebuah Sistem Pendukung Keputusan (SPK) 
+                                untuk membantu dalam proses seleksi penyiar radio.</p>
+                            <a href="https://github.com/DekaIhza22" target="_blank" class="btn btn-github">
                                 <i class="fab fa-github fa-fw"></i> Go to repository
                             </a>
                         </div>
@@ -32,13 +35,11 @@
 
                     <div class="row">
                         <div class="col-lg-12">
-                            <h5 class="font-weight-bold">Credits</h5>
-                            <p>Laravel SB Admin 2 uses some open-source third-party libraries/packages, many thanks to the web community.</p>
-                            <ul>
-                                <li><a href="https://laravel.com" target="_blank">Laravel</a> - Open source framework.</li>
-                                <li><a href="https://github.com/DevMarketer/LaravelEasyNav" target="_blank">LaravelEasyNav</a> - Making managing navigation in Laravel easy.</li>
-                                <li><a href="https://startbootstrap.com/themes/sb-admin-2" target="_blank">SB Admin 2</a> - Thanks to Start Bootstrap.</li>
-                            </ul>
+                            <h5 class="font-weight-bold">Kesimpulan</h5>
+                            <p>Pembuatan SPK Penyiar Radio ini adalah langkah inovatif yang diambil untuk memastikan bahwa stasiun radio dapat memilih penyiar yang tidak hanya menarik dan berkarisma,
+                                tetapi juga mampu menjaga kesopanan dan profesionalisme dalam setiap siarannya. 
+                                Dengan demikian, stasiun radio dapat terus menghadirkan program-program yang berkualitas dan disukai oleh pendengar.
+                                Kami percaya bahwa dengan SPK ini, stasiun radio akan mampu bersaing lebih baik dan mencapai kesuksesan yang lebih tinggi.</p>
                         </div>
                     </div>
 
