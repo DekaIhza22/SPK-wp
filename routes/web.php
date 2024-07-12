@@ -6,6 +6,8 @@ use App\Http\Controllers\AlternatifController;
 use App\Http\Controllers\PenilaianController;
 use App\Http\Controllers\PerhitunganController;
 use App\Http\Controllers\Auth\LoginController;
+use App\Http\Controllers\Auth\ForgotPasswordController;
+use App\Http\Controllers\Auth\ResetPasswordController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -50,3 +52,15 @@ Route::get('/about', function () {
 // Rute untuk otorisasi Google
 Route::get('auth/google', [LoginController::class, 'redirectToGoogle'])->name('login.google');
 Route::get('auth/google/callback', [LoginController::class, 'handleGoogleCallback'])->name('login.google.callback');
+
+// Rute untuk form lupa password
+Route::get('password/reset', [ForgotPasswordController::class, 'showLinkRequestForm'])->name('password.request');
+
+// Rute untuk mengirim email reset password
+Route::post('password/email', [ForgotPasswordController::class, 'sendResetLinkEmail'])->name('password.email');
+
+// Rute untuk menampilkan form reset password
+Route::get('password/reset/{token}', [ResetPasswordController::class, 'showResetForm'])->name('password.reset');
+
+// Rute untuk memperbarui password
+Route::post('password/reset', [ResetPasswordController::class, 'reset'])->name('password.update');
